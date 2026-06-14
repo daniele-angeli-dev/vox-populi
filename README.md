@@ -177,6 +177,10 @@ python main.py --command dashboard --store https://play.google.com/... --max-rev
 
 The full report includes sentiment breakdown, category analysis, recurring patterns, and the complete fix list with effort estimates.
 
+📄 **[sample-report.md](samples/output/sample-report.md)** — full analysis report
+📄 **[sample-release.md](samples/output/sample-release.md)** — release notes output
+🌐 **[sample-dashboard.html](samples/output/sample-dashboard.html)** — interactive HTML dashboard
+
 ---
 
 ## What it actually generates
