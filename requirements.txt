@@ -1,0 +1,13 @@
+langgraph
+langchain
+langchain-core
+langchain-anthropic
+python-dotenv
+questionary
+google-play-scraper
+
+# Other providers (install only what you need):
+# langchain-openai        → OpenAI / GPT-4o
+# langchain-google-genai  → Gemini
+# langchain-groq          → Groq (Llama, Mixtral)
+# langchain-ollama        → Ollama (local models)
