@@ -19,14 +19,14 @@
 ## How it works
 
 ```
-Store URL ──► load_reviews ──► analyze (Claude) ──► report + fix list
-                                                           │
-                                              gen_replies (Claude) ──► auto-replies
-                                                           │
-                                              compute_stats (Python) ──► dashboard.html
+Store URL ──► load_reviews ──► analyze (LLM) ──► report + fix list
+                                                         │
+                                            gen_replies (LLM) ──► auto-replies
+                                                         │
+                                            compute_stats (Python) ──► dashboard.html
 ```
 
-Each step is a node in a [LangGraph](https://github.com/langchain-ai/langgraph) graph. Claude handles the reasoning — categorization, prioritization, tone. Python handles the rest.
+Each step is a node in a [LangGraph](https://github.com/langchain-ai/langgraph) graph. The LLM handles the reasoning — categorization, prioritization, tone. Python handles the rest.
 
 ---
 
